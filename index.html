@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <title>Mactor OS</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" aria-hidden="true">Close</i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="download.html">Download</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()">Menu</i>
+        </nav>
+
+
+        <div class="text-box">
+            <h1>MactorOS</h1>
+            <p>The most beautiful looking linux distro that looks just like MacOS.</p>
+            <p>Scroll to learn more</p>
+            <a href="download.html" class="hero-btn">Download MactorOS</a>
+        </div>
+
+
+    </section>
+
+
+
+<!-- Built for User Experience -->
+
+<section class="user-design-tab">
+    <h1>Built for the user</h1>
+    <p>Simple and elegant design for user experience</p>
+
+<div class="row">
+    <div class="secure-col">
+        <h3>Secure</h3>
+        <p>Based off Ubuntu, MactorOS is secure and user friendly.</p>
+        <img src="images/lock.png" alt="" width="200" height="200">
+    </div>
+</div>
+<div class="secure-col">
+        <h3>User Friendly</h3>
+        <p>Since MactorOS is resembling macOS, it has a nice fast design that is intuitive and easy to navigate through.</p>
+        <img src="images/user friendly.jpg" alt="" width="200" height="200">
+    </div>
+    <div class="row">
+        <div class="secure-col">
+            <h3>Sleek, Elegant Design</h3>
+            <p>Using macOS looks and Icons, this is a very good distro to use if you are switching from macOS or just love the design!.</p>
+            <img src="images/mactorOS.png" alt="" width="500" height="300">
+        </div>
+
+</section>
+
+
+
+<section class="campus">
+    <h1>MactorOS Icons</h1>
+    <p>We use macOs Big Sur Icons, which improve the look and feel of the UI experience.</p>
+
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/files.jfif" alt="" width="200" height="200">
+            <img src="images/terminal.jfif" alt="" width="200" height="200">
+            <img src="images/chrome.jfif" alt="" width="200" height="200">
+        </div>
+    </div>
+</section>
+
+
+
+<section class="facilities">
+    <h1>How to download and setup</h1>
+    <p>Once you click the download button on the top of the page, download the .iso file then follow the instructions to finish customizing MactorOS and making it look like macOS.</p>
+
+</section>
+
+
+
+
+
+
+
+
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+</html>
